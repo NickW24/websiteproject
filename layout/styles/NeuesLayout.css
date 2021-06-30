@@ -22,6 +22,20 @@ File: Layout CSS
 .row5, .row5 a{}
 
 
+.flex-container {
+  display:flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.flex-item{
+	margin-right: 20px;
+	width: 50%;
+	flex: auto;
+}
+
+
+
 /* Top Bar
 --------------------------------------------------------------------------------------------------------------- */
 #topbar{padding:20px 0; font-size:.8rem; text-transform:uppercase;}
